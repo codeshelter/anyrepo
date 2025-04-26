@@ -1,0 +1,15 @@
+! Title: YouTube Shorts Block Filter
+! Description: Blocks YouTube Shorts-related services without blocking full YouTube.
+! Version: 2025.04.26
+! Expires: 1 day
+
+||youtubei.googleapis.com^
+||youtube.googleapis.com^
+||ytimg.com^
+||i.ytimg.com^
+||s.ytimg.com^
+||yt3.ggpht.com^
+||googlevideo.com^
+||redirector.googlevideo.com^
+||manifest.googlevideo.com^
+||ytstatic.l.google.com^
