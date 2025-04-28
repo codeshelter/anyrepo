@@ -1,12 +1,23 @@
-! Title: Hide YouTube Shorts Test
-! Description: Hide all traces of YouTube shorts videos on YouTube
-! Version: 0.1
-! Homepage: https://github.com/pascal1888/hide-yt-shorts-test
-
-! Test to block actual pages
+! Block YouTube Shorts
 www.youtube.com/shorts^
 m.youtube.com/shorts^
 youtube.com/shorts^
 ||www.youtube.com/shorts^
 ||m.youtube.com/shorts^
 ||youtube.com/shorts^
+
+! Block Google Video Domains
+||video.google.com^
+||googlevideo.com^
+||redirector.googlevideo.com^
+
+! Block YouTube API Endpoints
+||www.youtube.com/youtubei/v1^
+||youtubei.googleapis.com^
+||youtube.googleapis.com^
+
+! Block general YouTube and Google video services
+||ytimg.com^
+||youtube.com/get_video^
+||youtube.com/get_video_info^
+||youtube.com/embed^
